@@ -15,6 +15,9 @@ Automating deployment of CP4I using tekton pipelines
     oc apply -f operator-group.yaml
 
     oc apply -f subscription.yaml
+    
+    repeat the command but replace <subscription.yaml> with the operators you want to install for example for ace it is <subscriptionace.yaml>
+    
 
     To test if the installation was successful run the following command
         oc get csv -n openshift-operators

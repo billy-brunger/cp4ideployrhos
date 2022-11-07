@@ -16,7 +16,7 @@ Automating deployment of CP4I using tekton pipelines
 
     oc apply -f subscription.yaml
     
-    repeat the command but replace <subscription.yaml> with the operators you want to install for example for ace it is <subscriptionace.yaml>
+    repeat the command but replace <subscription.yaml> with the operators you want to install (refer to index.md)
     
 
     To test if the installation was successful run the following command

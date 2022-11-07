@@ -1,6 +1,5 @@
-# Cloud Pak for Integration automated deployment
-# CURRENTLY THESE STEPS SHOW HOW TO INSTALL CP4I USING CLI MANUALLY 
-Automating deployment of CP4I using tekton pipelines
+# Cloud Pak for Integration CLI Deployment on RedHat Openshift 
+
 
 1) Create a namespace to install CP4I
     
